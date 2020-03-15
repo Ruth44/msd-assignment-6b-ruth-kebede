@@ -1,0 +1,15 @@
+1.
+let our branch name be x
+git checkout -b x
+2.
+It is not a good idea. We should work on different branches and test it and once we are sure that the code is good, we can then merge it to the master.
+This can help us in limiting the amount of conflicts. 
+3.
+HEAD: points to the current branch that we are on. The branch point to the last commit in that branch so the HEAD file has the pointer to latest commit.
+      when we manipulate the head, we can take it to any commit in our log.
+config: Has the configuration that we made in the beginning when we initialized our files. For example in my case, it has my name: Ruth Kebede and my 
+        email address. It also has some properties related to the configuration.
+4.
+We first checkout to master
+- git merge fixes
+- git merge fixes --no-ff -m "A message of our choice": It will make a commit at the point of merging with the message that we have specified.

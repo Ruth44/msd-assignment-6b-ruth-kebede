@@ -1,0 +1,21 @@
+1.
+From a code remote to master
+git pull code master
+2.
+A: If the branch that we wanna merge has 3 commits after the branching and the branch we want it to be merged into has no commits after the branching,
+   then we perform a FAST FORWARD MERGE
+B: If the branch that we wanna merge has 3 commits after the branching and the branch we want it to be merged into has 3 commits after the branching, 
+   then we perform a 3 WAY MERGE.
+3.
+git merge BRANCH_X --no-ff -m "A message of our choice"
+4.
+This could be the reasons for the confilcts:
+A.If we tried to make a change on a single line on both fix and develop.
+B.One file is updated and deleted on fix and develop.
+To fix this, 
+ We could take the easy way out and reverse back the merging: HOW TO DO IT: git merge --abort
+ Another way is taking the long way and actualy fixing it. There are going to be conflcit markers on the files with a conflict so we can go and fix it.
+5.
+git push origin master
+git push origin develop
+

@@ -1,0 +1,16 @@
+1. 
+we use the git add command to start tracking files.
+It returns an error with the following message: fatal: not a git repository "
+2.
+git commit -m "Added source code files"
+3.
+Git is a version contol system. It has our project in different stages of the development. It can be used on an individual project or on big projects 
+that are done in large groups. 
+Git is a very useful tool in our development process for different reasons. 
+-When working on projects involving different developers, it lets us keep merging our files.
+-It takes us back to any part in the history so if we have made some type of error, we can easily trace it using the commit message.
+-Its helpful for collaborative projects.
+4.
+It is not a repository because it has not been initialized on git. Until initialized, the changes and updates made to that folder is not going to be
+recognized by git. 
+
