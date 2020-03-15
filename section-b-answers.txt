@@ -1,3 +1,4 @@
+ANSWERS
 1.
 let our branch name be x
 git checkout -b x

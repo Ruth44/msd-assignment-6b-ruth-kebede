@@ -1,3 +1,4 @@
+ANSWERS
 1.
 From a code remote to master
 git pull code master

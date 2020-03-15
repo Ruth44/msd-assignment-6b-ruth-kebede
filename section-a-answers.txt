@@ -1,3 +1,4 @@
+ANSWERS
 1. 
 we use the git add command to start tracking files.
 It returns an error with the following message: fatal: not a git repository "
